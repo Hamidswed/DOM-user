@@ -14,10 +14,11 @@
       <button class="btn" onclick="refresh()">Refresh</button>
       <div class="buttons">
         <button onclick="addUser()">Add User</button>
-        <button onclick="doubleMoney(moneyArray)">Double Money</button>
-        <button disabled >Show Only Millionaires</button>
-        <button onclick="richest(moneyArray,divId,nameIdArr,personArray)">Sort by Richest</button>
-        <button id="totalWealth" onclick="totalWealth(moneyArray)">Calculate entire Wealth</button>
+        <button onclick="doubleMoney()">Double Money</button>
+        <button onclick="showMillioniares()" >Show Only Millionaires</button>
+        <button onclick="sortRichest()">Sort by Richest</button>
+        <button onclick="sortByName()">Sort by Name</button>
+        <button onclick="calcWealth()">Calculate entire Wealth</button>
       </div>
       <div class="table">
         <div class="tab-header">
@@ -28,6 +29,6 @@
       </div>
     </section>
 
-    <script src="./javascript.js"></script>
+    <script src="./script.js"></script>
   </body>
 </html>

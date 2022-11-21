@@ -50,13 +50,13 @@ body h1{
   margin: 20px 0;
 }
 
-.buttons button:hover:enabled{
+.buttons button:hover{
   cursor: pointer;
   background-color: #f26419;
   color: #fff;
 }
 
-.buttons button:active:enabled{
+.buttons button:active{
   transform: scale(.97);
   background-color: #ea5f14;
 }
