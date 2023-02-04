@@ -1,4 +1,4 @@
-## DOM manipulation
+## DOM manipulation (public repo)
 
 ## Requirements
 
